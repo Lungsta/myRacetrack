@@ -1,0 +1,25 @@
+Testsuite: racetrack.RaceTests
+Tests run: 2, Failures: 1, Errors: 1, Time elapsed: 1.184 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+--Output from testInMiles--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+--Output from testInMiles--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.442 sec
+	FAILED
+junit.framework.AssertionFailedError: Implement me
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:15)
+
+Testcase: testInMiles took 0.234 sec
+	Caused an ERROR
+No signature of method: racetrack.Race.inMIles() is applicable for argument types: () values: []
+Possible solutions: inMiles(), isCase(java.lang.Object), findAll(), inspect(), findAll()
+groovy.lang.MissingMethodException: No signature of method: racetrack.Race.inMIles() is applicable for argument types: () values: []
+Possible solutions: inMiles(), isCase(java.lang.Object), findAll(), inspect(), findAll()
+	at racetrack.RaceTests.testInMiles(RaceTests.groovy:26)
+

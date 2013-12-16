@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="ndaba" id="0" name="RaceControllerTests" package="racetrack" tests="1" time="3.282" timestamp="2013-12-08T20:34:39">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="3.212">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at racetrack.RaceControllerTests.testSomething(RaceControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="1" hostname="ndaba" id="1" name="RaceTests" package="racetrack" tests="2" time="1.184" timestamp="2013-12-08T20:34:43">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.443">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.236">
+          <error message="No signature of method: racetrack.Race.inMIles() is applicable for argument types: () values: []&#xa;Possible solutions: inMiles(), isCase(java.lang.Object), findAll(), inspect(), findAll()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: racetrack.Race.inMIles() is applicable for argument types: () values: []
+Possible solutions: inMiles(), isCase(java.lang.Object), findAll(), inspect(), findAll()
+	at racetrack.RaceTests.testInMiles(RaceTests.groovy:26)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testInMiles--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testInMiles--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="ndaba" id="2" name="RegistrationTests" package="racetrack" tests="1" time="0.897" timestamp="2013-12-08T20:34:44">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.89">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at racetrack.RegistrationTests.testSomething(RegistrationTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
